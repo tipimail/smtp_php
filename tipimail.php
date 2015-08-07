@@ -10,7 +10,8 @@
   
   $html = "version html";
   
-  $transport = Swift_SmtpTransport::newInstance('smtp.tipimail.com', 587);
+  $transport = Swift_SmtpTransport::newInstance('smtp.tipimail.com', 25);
+  //$transport = Swift_SmtpTransport::newInstance('smtp.tipimail.com', 587, "tls");
   $transport->setUsername('your Tipimail username');
   $transport->setPassword('one of your Api keys');
   $swift = Swift_Mailer::newInstance($transport);
