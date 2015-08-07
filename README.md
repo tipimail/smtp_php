@@ -11,7 +11,7 @@ To install this library, you can use [Composer](https://getcomposer.org/).
 
 To install swiftmailer, you just have to enter this command line
 
-`composer require swiftmailer/swiftmailer @stable
+`composer require swiftmailer/swiftmailer @stable`
 
 ### Usage
 
